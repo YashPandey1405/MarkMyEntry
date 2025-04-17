@@ -116,7 +116,7 @@ loginForm.addEventListener("submit", (e) => {
   localStorage.setItem("email", tempEmail);
   localStorage.setItem("password", tempPassword);
 
-  toggleForms(tempUserName); // Call the function to toggle forms
+  window.location.reload();
 });
 
 // Event listener for the Registration form submission.....
